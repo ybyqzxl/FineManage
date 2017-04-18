@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+
+            <TextView
+                android:id="@+id/tv_detail_organization"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="外国语学院_英语协会"
+                android:textColor="#000"
+                android:textSize="12sp"
+                />
+
+
+            <TextView
+                android:id="@+id/tv_detail_role"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="8dp"
+                android:layout_weight="0.5"
+                android:text="角色"
+                android:textColor="#000"
+                android:textSize="12sp"
+                />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="组织类别："
+                android:textColor="#000"
+                android:textSize="12sp"
+                android:id="@+id/textView"/>
+
+            <TextView
+                android:id="@+id/tv_detail_category"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="文化艺术"
+                android:textColor="#000"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="组织级别："
+                android:textColor="#000"
+                android:textSize="12sp"
+                />
+
+            <TextView
+                android:id="@+id/tv_detail_rank"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="院级"
+                android:textColor="#000"
+                android:textSize="12sp"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="分\t\t\t\t 值："
+                android:textColor="#000"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:id="@+id/tv_detail_score"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2.5"
+                android:text="2.0"
+                android:textColor="#000"
+                android:textSize="12sp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

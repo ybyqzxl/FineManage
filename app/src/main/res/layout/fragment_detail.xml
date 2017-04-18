@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_line"
+            android:gravity="center|left"
+            android:paddingBottom="3dp"
+            android:paddingLeft="8dp"
+            android:text="学生组织类别"
+            android:textColor="#000"
+            android:textSize="16sp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_Organization"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_line"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_line"
+            android:paddingBottom="3dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="3dp"
+            android:text="文化活动类别"
+            android:textColor="#000"
+            android:textSize="16sp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_Culture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_line"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_line"
+            android:paddingBottom="3dp"
+            android:paddingLeft="8dp"
+            android:paddingTop="3dp"
+            android:text="获奖类别"
+            android:textColor="#000"
+            android:textSize="16sp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_Award"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/table_line"/>
+
+    </LinearLayout>
+</ScrollView>

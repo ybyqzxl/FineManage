@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">FineManage</string>
+
+    <string name="username">姓名：</string>
+    <string name="score">得分</string>
+    <string name="bjpm">班级排名</string>
+    <string name="zypm">专业排名</string>
+    <string name="college">学院：</string>
+    <string name="userCode">学号：</string>
+    <string name="year">学期：</string>
+    <string name="login">登 录</string>
+</resources>
